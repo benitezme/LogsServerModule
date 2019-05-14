@@ -1,6 +1,6 @@
 {
-  "name": "logs-server",
-  "version": "0.0.1",
+  "name": "@superalgos/logs-api",
+  "version": "0.1.0",
   "description": "Superalgos Logs backend API",
   "author": "Superalgos, ltd.",
   "license": "Apache-2.0",
