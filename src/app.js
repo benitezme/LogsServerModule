@@ -40,4 +40,6 @@ server.applyMiddleware({
   cors: true,
 });
 
-export default app;
+app.listen(process.env.PORT, () => {
+  console.log(`Listening on port ${process.env.PORT}`);
+});
