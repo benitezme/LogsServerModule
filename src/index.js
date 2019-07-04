@@ -1,5 +1,2 @@
-import app from './app';
-
-app.listen(process.env.PORT, () => {
-  console.log(`Listening on port ${process.env.PORT}`);
-});
+require = require('esm')(module)
+module.exports = require('./app.js')
